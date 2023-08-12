@@ -1,0 +1,22 @@
+{
+  "name": "@fl-cli-dev/core",
+  "version": "1.0.0",
+  "description": "fl-cli-dev/core",
+  "author": "solomonfu <fuliang27209@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
